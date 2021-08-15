@@ -38,7 +38,7 @@ function MovieDetails() {
           {movie.vote_average}
         </p>
       </div>
-      <button>Watch Trailer</button>
+      <button className="btn">Watch Trailer</button>
     </div>
   );
 }
