@@ -66,7 +66,7 @@ header {
   align-items: center;
 }
 
-input {
+.search {
   background-color: transparent;
   border: 2px solid wheat;
   outline: none;
@@ -75,6 +75,12 @@ input {
   padding: 10px;
   margin-right: 20px;
   width: 250px;
+  transition: all 0.2s ease-in;
+}
+
+.search:focus {
+  border: 2px solid red;
+  outline: none;
 }
 
 /* ----------- */
@@ -113,4 +119,5 @@ nav .link {
 
 .btn {
   padding: 10px;
+  margin-top: 15px;
 }

@@ -18,9 +18,6 @@ function MovieDetails() {
 
   return (
     <div className="movie-details">
-      <Link to="/" className="link">
-        Back Home
-      </Link>
       <h2 className="title">{movie.title}</h2>
 
       <img src={base_url + movie.poster_path} alt={movie.title} />
@@ -39,6 +36,12 @@ function MovieDetails() {
         </p>
       </div>
       <button className="btn">Watch Trailer</button>
+      <Link to="/" className="link">
+        Back Home
+      </Link>
+      <Link to="/favourites" className="link">
+        Back to Favourites
+      </Link>
     </div>
   );
 }
