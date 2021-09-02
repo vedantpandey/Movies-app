@@ -7,22 +7,11 @@ Movies can be added to and removed from favorites.
 * HTML/CSS
 * Javascript
 * React js
+* React Hooks
+* localStorage
+* TMDb API
 
-##### Live Demo : https://airbnb-clone-c6d14c.netlify.app/
-
-##### SCREENSHOTS:
-Landing Page:
-
-![Screenshot (199)](https://user-images.githubusercontent.com/65844743/116823343-96061f00-aba1-11eb-89d3-e9886695cdc8.png)
-
-![Screenshot (200)](https://user-images.githubusercontent.com/65844743/116823363-b9c96500-aba1-11eb-995d-89d3a43f8498.png)
----
-Search Results Page:
-
-![Screenshot (201)](https://user-images.githubusercontent.com/65844743/116823368-be8e1900-aba1-11eb-8441-c496d100c10c.png)
-
-![Screenshot (203)](https://user-images.githubusercontent.com/65844743/116823370-c1890980-aba1-11eb-904e-f6a1779ebe79.png)
-
+##### Live Demo : https://movie-app-a26b37.netlify.app/
 
 ---
 
