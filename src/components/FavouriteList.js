@@ -8,11 +8,14 @@ function FavouriteList({ movies, removeFavouriteMovie }) {
       <div className="movie-container">
         {movies.length > 0 ? (
           movies.map((movie) => (
-            <div>
+            <div key={movie.id} className="movieItem">
               <Link to={`/movie/${movie.id}`} key={movie.id} className="link">
                 <Movie key={movie.id} {...movie} />
               </Link>
-              <button onClick={() => removeFavouriteMovie(movie)}>
+              <button
+                onClick={() => removeFavouriteMovie(movie)}
+                className="btn remBtn"
+              >
                 Remove from Favourites
               </button>
             </div>

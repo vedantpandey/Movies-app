@@ -12,10 +12,10 @@ function Movie({ title, overview, poster_path, vote_average }) {
         }
         alt={title}
       />
-      <div className="movie-info">
+      {/* <div className="movie-info">
         <h3>{title}</h3>
         <p>{vote_average}</p>
-      </div>
+      </div> */}
     </div>
   );
 }

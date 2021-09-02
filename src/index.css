@@ -95,10 +95,24 @@ header {
   width: 300px;
 }
 
-.movie-details .movie-info {
+/* .movie-details .movie-info {
   display: flex;
   flex-direction: column;
   align-items: center;
+} */
+.movieItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.movielist .btn {
+  border: 1px solid rgba(255, 0, 0, 0.473);
+  border-radius: 10px;
+  margin-top: -7px;
+  width: 157px;
+  cursor: pointer;
 }
 
 .movie-details .movie-data {
@@ -108,8 +122,13 @@ header {
 .movie-details .movie-info p {
   width: 800px;
 }
+
+.movie-details {
+  display: flex;
+}
 .link {
   text-decoration: none;
+  margin-top: 10px;
 }
 
 nav .link {
@@ -120,4 +139,18 @@ nav .link {
 .btn {
   padding: 10px;
   margin-top: 15px;
+  border: 1px solid rgba(255, 0, 0, 0.473);
+  border-radius: 10px;
+  width: 157px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  color: wheat;
+  background-color: rgba(255, 0, 0, 0.473);
+}
+
+.remBtn {
+  width: 300px;
 }

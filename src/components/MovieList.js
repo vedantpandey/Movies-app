@@ -7,11 +7,11 @@ function MovieList({ movies, addFavouriteMovie }) {
     <div className="movielist">
       <div className="movie-container">
         {movies.map((movie) => (
-          <div>
+          <div key={movie.id} className="movieItem">
             <Link to={`/movie/${movie.id}`} key={movie.id} className="link">
               <Movie key={movie.id} {...movie} />
             </Link>
-            <button onClick={() => addFavouriteMovie(movie)}>
+            <button onClick={() => addFavouriteMovie(movie)} className="btn">
               Add to Favourites
             </button>
           </div>

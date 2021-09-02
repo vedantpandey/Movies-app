@@ -26,7 +26,7 @@ function App() {
       localStorage.getItem("react-movie-app-favourites")
     );
 
-    setFavourites(movieFavourites);
+    if (movieFavourites !== null) setFavourites(movieFavourites);
   }, []);
 
   const getMovies = (API) => {
@@ -69,7 +69,7 @@ function App() {
 
   const removeFavouriteMovie = (movie) => {
     const newFavouriteList = favourites.filter(
-      (favourite) => favourite.id != movie.id
+      (favourite) => favourite.id !== movie.id
     );
     setFavourites(newFavouriteList);
     saveToLocalStorage(newFavouriteList);
