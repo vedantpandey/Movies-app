@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Movies App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A movie web app in which the user can surf through popular movies, watch their trailers and search for a movie. 
+Movies can be added to and removed from favorites.
 
-## Available Scripts
+### Technologies Used
+* HTML/CSS
+* Javascript
+* React js
 
-In the project directory, you can run:
+##### Live Demo : https://airbnb-clone-c6d14c.netlify.app/
 
-### `yarn start`
+##### SCREENSHOTS:
+Landing Page:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Screenshot (199)](https://user-images.githubusercontent.com/65844743/116823343-96061f00-aba1-11eb-89d3-e9886695cdc8.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Screenshot (200)](https://user-images.githubusercontent.com/65844743/116823363-b9c96500-aba1-11eb-995d-89d3a43f8498.png)
+---
+Search Results Page:
 
-### `yarn test`
+![Screenshot (201)](https://user-images.githubusercontent.com/65844743/116823368-be8e1900-aba1-11eb-8441-c496d100c10c.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot (203)](https://user-images.githubusercontent.com/65844743/116823370-c1890980-aba1-11eb-904e-f6a1779ebe79.png)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `yarn eject`
+### Prerequisites
+#### Install Node JS
+Refer to https://nodejs.org/en/ to install nodejs
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Install create-react-app
+Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install -g create-react-app
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Cloning and Running the Application in local
 
-## Learn More
+First clone this repository.
+```bash
+$ git clone https://github.com/vedantpandey/airbnb-clone.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
+```bash
+$ npm install # or yarn
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Run it
+```bash
+$ npm start # or yarn start
+```
