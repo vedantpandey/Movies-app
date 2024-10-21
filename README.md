@@ -1,49 +1,50 @@
-# Movies App
+# 🎬 Movies App  
 
-A movie web app in which the user can surf through popular movies, watch their trailers and search for a movie. 
-Movies can be added to and removed from favorites.
-
-### Technologies Used
-* HTML/CSS
-* Javascript
-* React js
-* React Hooks
-* localStorage
-* TMDb API
-
-##### Live Demo : https://movie-app-a26b37.netlify.app/
+A **movie web app** that allows users to browse popular and top-rated movies, watch trailers, and search for specific titles. Users can also manage their favorite movies by adding or removing them, with favorites saved locally for a personalized experience.
 
 ---
 
-## Getting Started
+## 🚀 Features  
+- **Browse Popular Movies**: Explore trending and top-rated movies.  
+- **Watch Trailers**: View official trailers directly within the app.  
+- **Search Functionality**: Find movies quickly using the search bar.  
+- **Favorites Management**: Add or remove movies from your favorites list.  
+- **Persistent Storage**: User favorites are saved using `localStorage` for future sessions.  
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+---
 
-### Prerequisites
-#### Install Node JS
-Refer to https://nodejs.org/en/ to install nodejs
+## 🛠️ Technology Stack  
+- **Frontend**: HTML, CSS, JavaScript, React.js  
+- **State Management**: React Hooks  
+- **Data Source**: TMDb API  
+- **Storage**: localStorage  
 
-#### Install create-react-app
-Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
+---
 
+## 🌐 Live Demo  
+Check out the live version of the app: [Movies App on Netlify](https://movie-app-a26b37.netlify.app/)  
+
+---
+
+## 📋 Prerequisites  
+Make sure the following tools are installed on your system:  
+- **Node.js**: Download and install from [Node.js official website](https://nodejs.org/en/)  
+- **create-react-app**:  
+   Install the `create-react-app` npm package globally using:  
+   ```bash
+   npm install -g create-react-app
+
+## ⚙️ How to Run  
 ```bash
-npm install -g create-react-app
-```
+# 1. Clone the Repository
+git clone https://github.com/vedantpandey/airbnb-clone.git
+cd airbnb-clone
 
+# 2. Install Dependencies
+npm install  # or yarn
 
-### Cloning and Running the Application in local
+# 3. Start the Application
+npm start  # or yarn start
 
-First clone this repository.
-```bash
-$ git clone https://github.com/vedantpandey/airbnb-clone.git
-```
-
-Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
-```bash
-$ npm install # or yarn
-```
-
-Run it
-```bash
-$ npm start # or yarn start
-```
+# 4. Open the App
+# Visit http://localhost:3000 in your browser.
